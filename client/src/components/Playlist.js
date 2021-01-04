@@ -55,25 +55,25 @@ const Playlist = (props) => {
     {
       id: 104,
       category_id: 6,
-      name: "lazy rhymes",
+      name: "beach",
       img: "https://source.unsplash.com/640x480?beach",
     },
     {
       id: 105,
       category_id: 1,
-      name: "lazy rhymes",
+      name: "girl's pick",
       img: "https://source.unsplash.com/640x480?girl",
     },
     {
       id: 106,
       category_id: 3,
-      name: "lazy rhymes",
+      name: "Boyish",
       img: "https://source.unsplash.com/640x480?boy",
     },
     {
       id: 107,
       category_id: 3,
-      name: "lazy rhymes",
+      name: "Top hot",
       img: "https://source.unsplash.com/640x480?hot",
     },
     {
@@ -85,14 +85,44 @@ const Playlist = (props) => {
     {
       id: 109,
       category_id: 6,
-      name: "lazy rhymes",
+      name: "Water music",
       img: "https://source.unsplash.com/640x480?water",
     },
     {
-      id: 1010,
+      id: 110,
       category_id: 6,
-      name: "lazy rhymes",
+      name: "Nature close",
       img: "https://source.unsplash.com/640x480?tree",
+    },
+    {
+      id: 111,
+      category_id: 1,
+      name: "space chill",
+      img: "https://source.unsplash.com/640x480?space",
+    },
+    {
+      id: 112,
+      category_id: 1,
+      name: "gamer choice",
+      img: "https://source.unsplash.com/640x480?game",
+    },
+    {
+      id: 113,
+      category_id: 1,
+      name: "travel songs",
+      img: "https://source.unsplash.com/640x480?flying",
+    },
+    {
+      id: 114,
+      category_id: 6,
+      name: "Car music",
+      img: "https://source.unsplash.com/640x480?cars",
+    },
+    {
+      id: 105,
+      category_id: 2,
+      name: "Top charts music",
+      img: "https://source.unsplash.com/640x480?home",
     },
   ];
 

@@ -7,7 +7,8 @@ import Authenticator from "./components/Authenticator";
 import axios from "axios";
 //import { useDataLayerValue } from "./DataLayer";
 
-axios.defaults.baseURL = "http://localhost:3001/";
+const PORT = 8823;
+axios.defaults.baseURL = `http://localhost:${PORT}/`;
 
 function App() {
   const [isAuth, setIsAuthenticated] = useState(false);

@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const passport = require("passport");
 const mongoose = require("mongoose");
 const express = require("express");
-
+const path = require("path");
 const cors = require("cors");
 require("dotenv/config");
 const app = express();
@@ -49,9 +49,13 @@ app.use("/user/", authRoute);
 
 if (process.env.NODE_ENV == "production") {
   app.use(express.static("client/build"));
+
+  app.get("*", (res, req) => {
+    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+  });
 }
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8823;
 
 app.listen(PORT, () => {
   console.log("server running on port " + PORT);
